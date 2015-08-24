@@ -1,0 +1,92 @@
+// ****** Customization Blue Color For App *******
+
+// $positive:                       #9c28b1 !default;
+
+//****** End ******
+
+// ****** Customization Red Color For App *******
+
+// $positive:                       #E84C3D !default;
+
+//****** End ******
+
+// ****** Customization Green Color For App *******
+
+// $positive:                       #27a01f !default;
+
+//****** End ******
+
+ $positive:                       #9C27B0 !default;
+ $calm:                           #03A9F4 !default;
+ $stable:                         transparent !default;
+ $base-color:                     #212121 !default;
+ $icon-color:                     #7a7a7a !default;
+ $link-color:                     #909090 !default;
+ $light-grey:                     #eeeeee !default;
+ $font-family-sans-serif:         "Lato","Helvetica Neue","Roboto","Segoe UI",sans-serif !default;
+ $font-family-light-sans-serif:   "Lato","HelveticaNeue-Light","Roboto-Light","Segoe UI-Light",sans-serif-light !default;
+ $light:                          #fff !default;
+ $input-color-placeholder:        #212121 !default;
+ $lato-font-weight:               300 !default;
+ $button-stable-text:             #fff !default;
+ $headings-font-weight:           500 !default;
+ $texts-font-size:                14px !default;
+ $input-padding:                  4px 0px 0px 3px !default;
+ $pad-font-size:                  13px !default;
+ $button-stable-border:           transparent !default;
+ $background-menu:                url('../img/side-menu.png');
+ $sign-bg-image:                  url('../img/sign-back.png') no-repeat center center;
+ $contact-bg-image:               url('../img/component/contact.png') no-repeat center center;
+ $setting-bg-image:               url('../img/component/setting.png') no-repeat center center;
+ $gallery-bg-image:               url('../img/component/gallery.png') no-repeat center center;
+ $gallery2-bg-image:              url('../img/component/gallery2.png') no-repeat center center;
+ $about-bg-image:                 url('../img/component/about.png') no-repeat center center;
+ $faq-bg-image:                   url('../img/component/faq.png') no-repeat center center;
+ $home-bg-image:                  url('../img/component/home.png') no-repeat center center;
+ $artical-bg-image:               url('../img/component/artical.png') no-repeat center center;
+ $profiles-bg-image:               url('../img/component/profilebk.png') no-repeat center center;
+ $bar-stable-bg:                  transparent !default;
+
+
+@mixin transition($transition-property, $transition-time) {
+    -webkit-transition: $transition-property $transition-time;
+    -moz-transition: $transition-property $transition-time;
+    -ms-transition: $transition-property $transition-time;
+    -o-transition: $transition-property $transition-time;
+    transition: $transition-property $transition-time;
+}
+
+@mixin clip-path($clip) {
+  -webkit-clip-path: $clip;
+  -moz-clip-path: $clip;
+  -ms-clip-path: $clip;
+  clip-path: $clip;
+}
+
+//********  custom class ********'
+ .input-tag {
+    color: $base-color !important;
+    font-weight: $lato-font-weight;
+    font-size: $texts-font-size;
+}
+//******* End ********
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../fonts/Lato-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Lato-Regular.ttf);
+}
+a,
+a:hover {
+    text-decoration: none
+}
