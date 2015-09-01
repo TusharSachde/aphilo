@@ -37,6 +37,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: "templates/user-login.html",
             controller: 'UserloginCtrl'
         })
+    
         .state('user-signup', {
             url: "/user-signup",
 
